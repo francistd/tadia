@@ -1,2 +1,9 @@
+<script>
+import Carousel from './Carousel.svelte';
+import Servicios from './Servicios.svelte';
+import Pie from '../Pie.svelte';
+</script>
 
-<h1>Este es el inicio</h1>
+<Carousel/>
+<Servicios/>
+<Pie/>
