@@ -5,8 +5,8 @@
 
 <footer class="footer">
   <div class="content has-text-centered">
-    <Icon data={at} scale="2" />
     <Icon data={instagram} scale="2" />
+    <Icon data={at} scale="2" />
     <Icon data={whatsapp} scale="2" />
     <p>
       <strong>Bulma</strong>

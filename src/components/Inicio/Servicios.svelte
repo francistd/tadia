@@ -1,7 +1,4 @@
-<script>
-  import Icon from "svelte-awesome/components/Icon.svelte";
-  import { wrench } from "svelte-awesome/icons";
-</script>
+
 
 <style>
 .color {
@@ -13,7 +10,6 @@ background-color: rgb(222, 222, 222);
   <section class="color hero is-bold ">
     <div class="hero-body">
       <h1 class="title has-text-centered">
-        <Icon data={wrench} scale="2" />
         Servicios
       </h1>
       <div class="container">

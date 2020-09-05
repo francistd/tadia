@@ -1,6 +1,4 @@
 <script>
-  import Icon from "svelte-awesome/components/Icon.svelte";
-  import { archive } from "svelte-awesome/icons";
   import Pie from "../Pie.svelte";
 </script>
 
@@ -14,7 +12,6 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title is-2 has-text-centered mt-4">
-        <Icon data={archive} scale="2" />
         Nosotros
       </h2>
     </div>
@@ -149,7 +146,8 @@
       alt="img"
       src="https://bulma.io/images/placeholders/128x128.png" />
   </figure>
-  <p class="has-text-centered">Tadia</p>
+  <!-- <p class="has-text-centered">tadia.arquitectura@gmail.com</p> -->
+  <p class="has-text-centered">@tadia.arquitectura</p>
 </div>
   </div>
 
@@ -161,7 +159,8 @@
       alt="img"
       src="https://bulma.io/images/placeholders/128x128.png" />
   </figure>
-  <p class="has-text-centered">Tadia</p>
+  <!-- <p class="has-text-centered">@tadia.arquitectura</p> -->
+  <p class="has-text-centered">tadia.arquitectura@gmail.com</p>
 </div>
   </div>
 
@@ -173,19 +172,7 @@
       alt="img"
       src="https://bulma.io/images/placeholders/128x128.png" />
   </figure>
-  <p class="has-text-centered">Tadia</p>
-</div>
-  </div>
-
-  <div class="level-item has-text-centered">
-    <div class="container">
-<figure class="image is-128x128 container mt-4">
-    <img
-      class="is-rounded"
-      alt="img"
-      src="https://bulma.io/images/placeholders/128x128.png" />
-  </figure>
-  <p class="has-text-centered">809-000-0000</p>
+  <p class="has-text-centered">809-407-2332</p>
 </div>
   </div>
 
