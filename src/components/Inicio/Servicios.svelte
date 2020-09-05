@@ -3,8 +3,14 @@
   import { wrench } from "svelte-awesome/icons";
 </script>
 
+<style>
+.color {
+background-color: rgb(222, 222, 222);
+}
+</style>
+
 <main>
-  <section class="hero is-primary is-light is-bold ">
+  <section class="color hero is-bold ">
     <div class="hero-body">
       <h1 class="title has-text-centered">
         <Icon data={wrench} scale="2" />
@@ -17,7 +23,7 @@
 
           <div class="tile mr-3 mt-3">
 
-            <article class="message is-primary">
+            <article class="message is-light">
               <div class="message-body">
               
               <figure class="image is-128x128 container mb-3">
@@ -42,7 +48,7 @@
           </div>
 
           <div class="tile mr-3 mt-3">
-            <article class="message is-primary">
+            <article class="message is-light">
               <div class="message-body">
 
               <figure class="image is-128x128 container mb-3">
@@ -67,7 +73,7 @@
           </div>
 
           <div class="tile mr-3 mt-3">
-            <article class="message is-primary">
+            <article class="message is-light">
               <div class="message-body">
 
               <figure class="image is-128x128 container mb-3">

@@ -34,7 +34,7 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 62, 0);
+    background-color: rgb(0, 0, 0);
     display: block;
     bottom: -1px;
   }
@@ -48,13 +48,15 @@
   nav {
     border-bottom: solid gray 1px;
   }
+  
 </style>
 
 <nav class="navbar" role="navigation" aria-label="main navigation">
+
   <div class="navbar-brand">
-    <a href="/" class="navbar-item">
+    <a href="/" class="navbar-item ml-6">
       <img src="logo.png" alt="Tadia" />
-    </a>
+     </a> 
 
     <span
       class="navbar-burger"
@@ -67,12 +69,14 @@
       <span aria-hidden="true" />
     </span>
   </div>
-  <div class="navbar-menu" class:is-active={isOpen}>
+  <div class="navbar-menu " class:is-active={isOpen}>
     <div class="navbar-start">
-    
-      <a href="/" class="navbar-item" 
-      aria-current={segment === undefined ? 'page' : undefined}
-      class:is-active={segment === undefined}>
+
+      <a
+        href="/"
+        class="navbar-item"
+        aria-current={segment === undefined ? 'page' : undefined}
+        class:is-active={segment === undefined}>
         Inicio
       </a>
 
@@ -91,7 +95,6 @@
         class:is-active={segment === 'nosotros'}>
         Nosotros
       </a>
-
 
     </div>
   </div>

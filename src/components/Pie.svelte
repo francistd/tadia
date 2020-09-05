@@ -1,11 +1,11 @@
 <script>
   import Icon from "svelte-awesome/components/Icon.svelte";
-  import { facebook, instagram, whatsapp } from "svelte-awesome/icons";
+  import { at, instagram, whatsapp } from "svelte-awesome/icons";
 </script>
 
 <footer class="footer">
   <div class="content has-text-centered">
-    <Icon data={facebook} scale="2" />
+    <Icon data={at} scale="2" />
     <Icon data={instagram} scale="2" />
     <Icon data={whatsapp} scale="2" />
     <p>
