@@ -18,12 +18,29 @@
   </div>
 </section>
 
+<div class="container">
+  <figure class="image is-128x128 container mt-4">
+    <img
+      class="is-rounded"
+      alt="img"
+      src="https://bulma.io/images/placeholders/128x128.png" />
+  </figure>
+  <div class="container">
+  <p class="has-text-centered mt-5 mb-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, dolores
+      quam? Quaerat officia laboriosam odio cumque rerum eligendi iure sunt
+      odit? Doloremque nam error dolorum velit reiciendis voluptatibus
+      voluptatem sunt!
+    </p>
+  </div>
+</div>
+
 <div class="container ">
   <div class="hero-body">
 
     <div class="tile is-ancestor">
       <div class="tile mr-3 mb-2">
-        <article class="message is-primary ">
+        <article class="message is-light ">
           <div class="message-body">
             <figure class="image is-128x128 container">
               <img
@@ -62,25 +79,6 @@
 
       <div class="tile mr-3 mb-2">
         <article class="message is-primary ">
-          <div class="message-body">
-            <figure class="image is-128x128 container">
-              <img
-                class="is-rounded"
-                alt="img"
-                src="https://bulma.io/images/placeholders/128x128.png" />
-            </figure>
-            <p class="has-text-centered">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              distinctio obcaecati, cupiditate sit eaque sint enim? Nobis modi
-              dolore ratione earum? Dolorem laboriosam facere et iste labore
-              temporibus molestiae numquam.
-            </p>
-          </div>
-        </article>
-      </div>
-
-      <div class="tile mr-3 mb-2">
-        <article class="message is-primary">
           <div class="message-body">
             <figure class="image is-128x128 container">
               <img
